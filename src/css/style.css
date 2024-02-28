@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    padding: 5rem 2rem;
+    background: url('../images/background.jpg');
+    background-size: cover;
+    background-origin: center;
+    color: white;
+}
+
+a {
+    position: fixed;
+    bottom: 1rem;
+}
